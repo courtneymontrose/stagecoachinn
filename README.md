@@ -1,1 +1,1 @@
-# stagecoachinn.github.io
+# stagecoachinn
