@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<title>Tour Shell Example</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    
+<!----- STYLE SHEETS ----->
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/small.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+<!-- PAGE HEADER GOES HERE -->
+    <header class="clearfix">
+        <img src="images/logo.png" alt="logo" >
+        <h1>Project Name</h1>
+        <h2>City, State</h2>
+    </header>
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="cover.html" target="panoPlace" >Home</a></li>
+            <li><a href="node01/index.html" target="panoPlace" >Node 1</a></li>  
+        </ul>
+    </nav>
+    
+    
+<!-- PAGE CONTENT GOES HERE -->
+    <main class="clearfix">
+       <iframe name="panoPlace" src ="cover.html"  frameborder="0" scrolling="no"></iframe>
+    </main>
+    
+<!-- PAGE FOOTER GOES HERE -->
+<footer>
+    <p>&copy; Your Name Here &bull; 1-801-555-1234 </p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
